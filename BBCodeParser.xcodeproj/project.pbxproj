@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AE8C7F9221302CF007B1E6B /* BBAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8C7F0221302CF007B1E6B /* BBAttribute.m */; };
+		3AE8C7FA221302CF007B1E6B /* BBParsingElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8C7F2221302CF007B1E6B /* BBParsingElement.m */; };
+		3AE8C7FB221302CF007B1E6B /* BBElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8C7F5221302CF007B1E6B /* BBElement.m */; };
+		3AE8C7FC221302CF007B1E6B /* BBCodeParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8C7F6221302CF007B1E6B /* BBCodeParser.m */; };
+		3AE8C80122130433007B1E6B /* BBAttribute.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3AE8C7F1221302CF007B1E6B /* BBAttribute.h */; };
+		3AE8C80222130433007B1E6B /* BBCodeParser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3AE8C7F3221302CF007B1E6B /* BBCodeParser.h */; };
+		3AE8C80322130433007B1E6B /* BBCodeParserDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3AE8C7F7221302CF007B1E6B /* BBCodeParserDelegate.h */; };
+		3AE8C80422130433007B1E6B /* BBElement.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3AE8C7F8221302CF007B1E6B /* BBElement.h */; };
+		3AE8C80522130433007B1E6B /* BBParsingElement.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3AE8C7F4221302CF007B1E6B /* BBParsingElement.h */; };
+		3AE8C80922130728007B1E6B /* libBBCodeParser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3AE8C80722130697007B1E6B /* libBBCodeParser.h */; };
+		3AE8C80A22130728007B1E6B /* module.modulemap in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3AE8C808221306F3007B1E6B /* module.modulemap */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3AE8C7E222130269007B1E6B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				3AE8C80922130728007B1E6B /* libBBCodeParser.h in CopyFiles */,
+				3AE8C80A22130728007B1E6B /* module.modulemap in CopyFiles */,
+				3AE8C80122130433007B1E6B /* BBAttribute.h in CopyFiles */,
+				3AE8C80222130433007B1E6B /* BBCodeParser.h in CopyFiles */,
+				3AE8C80322130433007B1E6B /* BBCodeParserDelegate.h in CopyFiles */,
+				3AE8C80422130433007B1E6B /* BBElement.h in CopyFiles */,
+				3AE8C80522130433007B1E6B /* BBParsingElement.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3AE8C7E422130269007B1E6B /* libBBCodeParser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBBCodeParser.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AE8C7F0221302CF007B1E6B /* BBAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBAttribute.m; path = Pod/Classes/BBAttribute.m; sourceTree = "<group>"; };
+		3AE8C7F1221302CF007B1E6B /* BBAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBAttribute.h; path = Pod/Classes/BBAttribute.h; sourceTree = "<group>"; };
+		3AE8C7F2221302CF007B1E6B /* BBParsingElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBParsingElement.m; path = Pod/Classes/BBParsingElement.m; sourceTree = "<group>"; };
+		3AE8C7F3221302CF007B1E6B /* BBCodeParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBCodeParser.h; path = Pod/Classes/BBCodeParser.h; sourceTree = "<group>"; };
+		3AE8C7F4221302CF007B1E6B /* BBParsingElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBParsingElement.h; path = Pod/Classes/BBParsingElement.h; sourceTree = "<group>"; };
+		3AE8C7F5221302CF007B1E6B /* BBElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBElement.m; path = Pod/Classes/BBElement.m; sourceTree = "<group>"; };
+		3AE8C7F6221302CF007B1E6B /* BBCodeParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBCodeParser.m; path = Pod/Classes/BBCodeParser.m; sourceTree = "<group>"; };
+		3AE8C7F7221302CF007B1E6B /* BBCodeParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBCodeParserDelegate.h; path = Pod/Classes/BBCodeParserDelegate.h; sourceTree = "<group>"; };
+		3AE8C7F8221302CF007B1E6B /* BBElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBElement.h; path = Pod/Classes/BBElement.h; sourceTree = "<group>"; };
+		3AE8C80722130697007B1E6B /* libBBCodeParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libBBCodeParser.h; sourceTree = "<group>"; };
+		3AE8C808221306F3007B1E6B /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AE8C7E122130269007B1E6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AE8C7DB22130269007B1E6B = {
+			isa = PBXGroup;
+			children = (
+				3AE8C80622130677007B1E6B /* libBBCodeParser */,
+				3AE8C7F1221302CF007B1E6B /* BBAttribute.h */,
+				3AE8C7F0221302CF007B1E6B /* BBAttribute.m */,
+				3AE8C7F3221302CF007B1E6B /* BBCodeParser.h */,
+				3AE8C7F6221302CF007B1E6B /* BBCodeParser.m */,
+				3AE8C7F7221302CF007B1E6B /* BBCodeParserDelegate.h */,
+				3AE8C7F8221302CF007B1E6B /* BBElement.h */,
+				3AE8C7F5221302CF007B1E6B /* BBElement.m */,
+				3AE8C7F4221302CF007B1E6B /* BBParsingElement.h */,
+				3AE8C7F2221302CF007B1E6B /* BBParsingElement.m */,
+				3AE8C7E522130269007B1E6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AE8C7E522130269007B1E6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AE8C7E422130269007B1E6B /* libBBCodeParser.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AE8C80622130677007B1E6B /* libBBCodeParser */ = {
+			isa = PBXGroup;
+			children = (
+				3AE8C80722130697007B1E6B /* libBBCodeParser.h */,
+				3AE8C808221306F3007B1E6B /* module.modulemap */,
+			);
+			path = libBBCodeParser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AE8C7E322130269007B1E6B /* BBCodeParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AE8C7ED22130269007B1E6B /* Build configuration list for PBXNativeTarget "BBCodeParser" */;
+			buildPhases = (
+				3AE8C7E022130269007B1E6B /* Sources */,
+				3AE8C7E122130269007B1E6B /* Frameworks */,
+				3AE8C7E222130269007B1E6B /* CopyFiles */,
+				3AE8C7FD221302E8007B1E6B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BBCodeParser;
+			productName = BBCodeParser;
+			productReference = 3AE8C7E422130269007B1E6B /* libBBCodeParser.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AE8C7DC22130269007B1E6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Limeade;
+				TargetAttributes = {
+					3AE8C7E322130269007B1E6B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 3AE8C7DF22130269007B1E6B /* Build configuration list for PBXProject "BBCodeParser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3AE8C7DB22130269007B1E6B;
+			productRefGroup = 3AE8C7E522130269007B1E6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AE8C7E322130269007B1E6B /* BBCodeParser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AE8C7FD221302E8007B1E6B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ditto ${BUILT_PRODUCTS_DIR} ${SRCROOT}/../../ONECore/ONECore/Libraries/${PLATFORM_NAME}\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AE8C7E022130269007B1E6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE8C7F9221302CF007B1E6B /* BBAttribute.m in Sources */,
+				3AE8C7FC221302CF007B1E6B /* BBCodeParser.m in Sources */,
+				3AE8C7FA221302CF007B1E6B /* BBParsingElement.m in Sources */,
+				3AE8C7FB221302CF007B1E6B /* BBElement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3AE8C7EB22130269007B1E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3AE8C7EC22130269007B1E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AE8C7EE22130269007B1E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MODULEMAP_FILE = libBBCodeParser/module.modulemap;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AE8C7EF22130269007B1E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MODULEMAP_FILE = libBBCodeParser/module.modulemap;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AE8C7DF22130269007B1E6B /* Build configuration list for PBXProject "BBCodeParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE8C7EB22130269007B1E6B /* Debug */,
+				3AE8C7EC22130269007B1E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AE8C7ED22130269007B1E6B /* Build configuration list for PBXNativeTarget "BBCodeParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE8C7EE22130269007B1E6B /* Debug */,
+				3AE8C7EF22130269007B1E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AE8C7DC22130269007B1E6B /* Project object */;
+}

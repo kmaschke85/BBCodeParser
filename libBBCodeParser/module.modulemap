@@ -1,0 +1,6 @@
+module BBCodeParser {
+    umbrella header "libBBCodeParser.h"
+    export *
+    module * { export * }
+}
+
